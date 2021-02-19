@@ -1,3 +1,4 @@
+@import "rasel.css";
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
@@ -67,6 +68,12 @@ h1,h2,h3,h4,h5,h6{
   display: table;
 }
 
+.list-unstyled{
+  list-style: none;
+}
+.list-inline li{
+  display: inline-block;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -473,4 +480,44 @@ textarea {
   margin: 0;
   line-height: 18px;
   margin-top: 30px;
+}
+
+/* ==========================================================================
+   Footer Area
+   ========================================================================== */
+.footer{
+  text-align: center;
+  background: #999999;
+  padding: 30px 0 0 0;
+}
+.social-listing li{
+  margin-right: 5px;
+}
+.social-listing li:last-child{
+  margin-right: 0;
+}
+
+.social-listing li a i{
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  line-height: 32px;
+}
+
+.footer-nav-menu{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-nav-menu li a{
+  text-decoration: none;
+  margin-right: 8px;
+  color: #d7d7d7;
+}
+
+.copy-right{
+  background: #000;
+  padding: 15px 0;
+  color: #fff;
 }
